@@ -1,0 +1,228 @@
+﻿.maine {
+    background-color: blue !important;
+    width: 100%;
+    min-height:670px;
+}
+.container {
+ 
+}
+.row{
+    
+    margin:10px;
+    border:2px;
+    padding:2%;
+}
+.second {
+    min-height: 100vh;
+}
+.Android {
+    background-color: rgb(246 248 252);
+    width: 100%;
+    min-height: max-content;
+    
+}
+.money1 {
+    background-image: url("../map_bg_transparent.png");
+    
+    /* Full height */
+    height:500px;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.item {
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    flex-grow: 0;
+    max-width: 100%;
+    flex-basis: 100%;
+}
+.rem1 {
+    background-image: url("../images/app_bg.png");
+    /* Full height */
+    height: 400px;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body {
+    margin: 2rem;
+}
+/* accordion bootstrap 4*/
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+    .active, .accordion:hover {
+        background-color: #ccc;
+    }
+
+    .accordion:after {
+        content: '\002B';
+        color: #777;
+        font-weight: bold;
+        float: right;
+        margin-left: 5px;
+    }
+
+.active:after {
+    content: "\2212";
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+.btn {
+    display: inline-block;
+}
+
+.fa-plus {
+    float: right;
+    display: inline-block;
+   
+}
+.so {
+    border: 0.75px solid #E9E9E9;
+    border-top: rgb(233, 233, 233);
+    border-top-color: rgb(233, 233, 233);
+    border-top-style: solid;
+    border-top-width: 0.75px;
+    border-right-color: rgb(233, 233, 233);
+    border-right-style: solid;
+    border-right-width: 0.75px;
+    border-bottom-color: rgb(233, 233, 233);
+    border-bottom-style: solid;
+    border-bottom-width: 0.75px;
+    border-left-color: rgb(233, 233, 233);
+    border-left-style: solid;
+    border-left-width: 0.75px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    display: flex;
+    padding: 80px 15px 50px 15px;
+    margin-top: 60px;
+    background-color: white;
+}
+.list-group {
+    text-decoration: none !important;
+}
+
+.list{
+    background-color:aqua
+}
+.rem01{
+   top:40px;
+    
+}
+.rem5, rem8, rem9 {
+    margin: 10% 0 0 0;
+}
+.rem8 {
+    margin: 10% 0 0 0;
+}
+.rem9 {
+    margin: 10% 0 0 0;
+}
+.rem16 {
+    margin:5% 0 0 0;
+}
+
+.rem11 {
+    margin: 10% 0 0 0;
+}
+.rem13 {
+    margin:5% 0 0 0;
+}
+.rem15 {
+    padding:12px;
+    color:white;
+}
+.btn:focus, .btn:active {
+    outline: none !important;
+    box-shadow: none;
+}
+.rem16 {
+    background-color: white;
+    border: 2px solid ;
+    border-radius: 10px;
+}
+.rem17{
+    margin:30px 30px 30px 30px;
+}
+.rem17A{
+    border-right-color:black;
+    border-right:.75px solid;
+
+}
+rem18 {
+    margin: 30px 0 0 0;
+    padding: 20px;
+    top: 60px;
+}
+.rem20 {
+   
+    margin:40px 30px 40px 30px;
+}
+.rem23 {
+    margin: 30px 0px 30px 0px;
+}
+.rem24 {
+    margin: 40px 0px 50px 0px;
+}
+
+.rem44 {
+    background-color: blue;
+   
+}
+
+.dropdown {
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+}
+
+    .dropdown:hover {
+        
+       width:max-content;
+    }
+
+    .dropdown .dropdown-menu {
+        width: max-content;
+    }
+
+    .dropdown .dropdown-menu {
+        
+        transition: all 0.5s;
+        max-height: 0;
+        display: block;
+        overflow: hidden;
+        opacity: 0;
+        box-shadow: none;
+      
+    }
+
+    .dropdown:hover .dropdown-menu {
+        max-height: 400px;
+        opacity: 1;
+    }
+.rem25{
+    border-top :0.75px solid;
+}
